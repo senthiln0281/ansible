@@ -10,7 +10,7 @@
             python3-pip
          
     - name: Transfer the script
-        copy: src=test.sh dest=/home/test_user mode=0777
+        copy: src=app.sh dest=/home/ec2-user mode=0777
 
     - name: Execute the script
-        command: sh /home/test_user/test.sh
+        command: sh /home/ec2-user/app.sh
