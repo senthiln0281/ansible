@@ -1,4 +1,4 @@
-- hosts: web
+- hosts: all
   tasks:
       - name: Update all packages on a Ubuntu
         apt:
